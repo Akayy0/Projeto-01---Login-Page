@@ -13,7 +13,3 @@ function showPassword(){
         field.type = 'password';
     }
 }
-document.getElementById('btn-login').addEventListener('click', function(e){
-    e.preventDefault();
-    alert('logado');
-})
