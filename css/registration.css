@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+    text-decoration: none;
+    color: white;
+}
+
+header{
+    min-height: 9vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(24, 23, 23);
+
+}
+header h1{
+    font-size: 2.5em;
+    color: rgb(255, 255, 255);
+}
+
+main{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(to top, #0097d3 , #006ac0 );
+    display: flex;
+    justify-content: center;
+    box-shadow: inset 0px 2px 3px rgba(0, 0, 0, 0.25);
+}
+
+main form{
+    margin-top: 10%;
+    width: 35%;
+    height: 75vh;
+    background-color: rgb(24, 23, 23);
+    opacity: 85%;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.4) inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 18px;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main form .input-container{
+    margin-top: 10%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+main form .input-container input{
+    width: 90%;
+    height: 45px;
+    padding: 8px 15px;
+    margin: 2%;
+    border: 0;
+    outline: 0;
+    border-radius: 12px;
+    font-size: 16px;    
+    color: #312e42; 
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
+}
+main form .input-container input:focus{
+    box-shadow: inset 1px 4px 7px rgba(0, 0, 0, 0.568);
+}
+
+main form .chekbox-container{
+    width: 90%;
+    margin-top: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+main form .chekbox-container label{
+
+    text-align: left;
+    margin-top: 4%;
+    margin-left: 1%;
+}
+
+
+main form a{
+    background-color: #006ac0;
+    width: 90%;
+    height: 50px;
+    border: 0;
+    outline: 0;
+    border-radius: 12px;
+    margin-top: 10%;
+    font-size: 1.6em;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    text-align: center;
+    padding-top: 1%;
+    
+}
+main form a:hover{
+    background: white;
+    color: #006ac0;
+}
+
+
+
