@@ -84,7 +84,7 @@ main form .chekbox-container label{
 }
 
 
-main form a{
+main form .link-Button{
     background-color: #006ac0;
     width: 90%;
     height: 50px;
@@ -100,7 +100,7 @@ main form a{
     padding-top: 1%;
     
 }
-main form a:hover{
+main form .link-Button:hover{
     background: white;
     color: #006ac0;
 }
